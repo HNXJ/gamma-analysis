@@ -1,1 +1,61 @@
-# gamma-analysis
+# Gamma Analysis
+
+## Role in Gamma
+
+Gamma Analysis is the quantitative and computational analysis layer of the Gamma ecosystem.
+
+It holds mathematical methods, statistical procedures, metrics, algorithms, evaluation pipelines, and computational-scientific analysis tools.
+
+## Four-Plane Position
+
+Gamma Analysis operates in the **Execution** and **Observation** planes.
+
+Its outputs are analysis artifacts and evidence packages — not committed truth.
+
+## What Lives Here
+
+- Mathematical and statistical methods
+- Evaluation pipelines and metrics
+- Algorithm implementations for analysis
+- Benchmark design and uncertainty quantification
+- MLLM/HPC scoring pipelines
+- Ontology tournament evaluation methods
+- Validation methods for analysis outputs
+
+## What Must Never Live Here
+
+- Truth-plane committed state
+- UI rendering claims
+- API secrets or credentials
+- General governance doctrine (that belongs in gamma-protocol)
+- Claims of committed truth without receipts
+
+## Analysis Output Classes
+
+1. **Exploratory** — hypothesis-generating, not confirmatory
+2. **Confirmatory** — testing a specific hypothesis
+3. **Diagnostic** — identifying failure modes or anomalies
+4. **Benchmark** — systematic comparison across methods or agents
+5. **Simulation-derived** — outputs from model/simulation runs
+6. **Literature-derived** — evidence from published sources
+
+## Required Reporting for All Analysis
+
+- Assumptions
+- Inputs with provenance
+- Method with references
+- Limitations
+- Uncertainty quantification
+- Reproducibility instructions
+- Relation to scientific claim (if applicable)
+
+## Relationship to Other Repos
+
+- `gamma-protocol` defines governance and claim standards
+- `gamma-science` holds the scientific canon that analysis should reference
+- `gamma` provides runtime execution; analysis pipelines may call it but do not own it
+- `gamma-arena` displays analysis results on the observation surface
+
+---
+
+© 2026 HNXJ(H.Nejat) / BASTOSLAB / VANDERBILT UNIVERSITY
