@@ -1,7 +1,7 @@
 # Gamma Analysis
 
 ## Role in Gamma Labyrinth
-Derived analysis/reports/transcripts/figures. Outputs are interpretation/recommendation/evidence until routed through Execution and Truth gates. Not truth storage.
+derived reports/transcripts/figures; interpretation only, not truth storage.
 
 ## Plane Classification
 Analysis Plane.
