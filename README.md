@@ -1,5 +1,25 @@
 # Gamma Analysis
 
+## Role in Gamma Labyrinth
+derived reports/transcripts/figures; interpretation only, not truth storage.
+
+## Plane Classification
+Analysis Plane.
+
+## Truth-Safety Note
+`truth_mode: truth_safe_unverified`. This repository contains derived evidence but does not store scientific truth receipts.
+
+## Coordination
+Refer to GitHub Project `gamma` for tasks and issues.
+
+## Guidelines
+Agents must verify branch/status before work.
+
+## Ignore Rules
+This repository ignores `.DS_Store`, `*.npy`, `*.mat`, and `*.html`.
+
+---
+
 ## Role in Gamma
 
 Gamma Analysis is the quantitative and computational analysis layer of the Gamma ecosystem.
