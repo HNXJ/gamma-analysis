@@ -1,85 +1,23 @@
-# Gamma Analysis
+# gamma-analysis
 
-## Role in Gamma Labyrinth
-derived reports/transcripts/figures; interpretation only, not truth storage.
+Analysis methods and statistics (interpretation only, not truth storage).
 
-## Plane Classification
-Analysis Plane.
+Proposed future name: **jynx-lab** (proposal, not renamed yet)
 
-## Truth-Safety Note
-`truth_mode: truth_safe_unverified`. This repository contains derived evidence but does not store scientific truth receipts.
+## Place in the 7-repo layout
 
-## Coordination
-Refer to GitHub Project `gamma` for tasks and issues.
+Plane: **LAB**. See [HNXJ/jynx-arena](https://github.com/HNXJ/jynx-arena) and its [architecture](https://github.com/HNXJ/jynx-arena/blob/main/docs/protocol/ARCHITECTURE.md) (ARENA, RULES, SCIENCE, LAB, ENGINE, JUDGE, WORLD). The current jynx-arena runtime is proposed to become **jynx-engine**; **jynx-world** (event ledger, projections) is a new proposed repo.
 
-## Guidelines
-Agents must verify branch/status before work.
+## Holds today
 
-## Ignore Rules
-This repository ignores `.DS_Store`, `*.npy`, `*.mat`, and `*.html`.
+- Only README and agent notes (`GEMINI.md`); no analysis code yet.
+- Proposed to merge with `gamma-tools` into **jynx-lab**.
 
----
+## Shared root layout (target, not yet applied)
 
-## Role in Gamma
+`artifacts/`, `docs/`, `src/`, `schemas/`, `tests/`, `tournaments/`, `README.md` — see [SHARED_ROOT_LAYOUT](https://github.com/HNXJ/jynx-arena/blob/main/docs/protocol/SHARED_ROOT_LAYOUT.md).
 
-Gamma Analysis is the quantitative and computational analysis layer of the Gamma ecosystem.
+## Truth safety
 
-It holds mathematical methods, statistical procedures, metrics, algorithms, evaluation pipelines, and computational-scientific analysis tools.
+A Judge PASS means a submission met a rubric under a protocol version; it is not scientific truth.
 
-## Four-Plane Position
-
-Gamma Analysis operates in the **Execution** and **Observation** planes.
-
-Its outputs are analysis artifacts and evidence packages — not committed truth.
-
-## What Lives Here
-
-- Mathematical and statistical methods
-- Evaluation pipelines and metrics
-- Algorithm implementations for analysis
-- Benchmark design and uncertainty quantification
-- MLLM/HPC scoring pipelines
-- Ontology tournament evaluation methods
-- Validation methods for analysis outputs
-
-## What Must Never Live Here
-
-- Truth-plane committed state
-- UI rendering claims
-- API secrets or credentials
-- General governance doctrine (that belongs in gamma-protocol)
-- Claims of committed truth without receipts
-
-## Analysis Output Classes
-
-1. **Exploratory** — hypothesis-generating, not confirmatory
-2. **Confirmatory** — testing a specific hypothesis
-3. **Diagnostic** — identifying failure modes or anomalies
-4. **Benchmark** — systematic comparison across methods or agents
-5. **Simulation-derived** — outputs from model/simulation runs
-6. **Literature-derived** — evidence from published sources
-
-## Required Reporting for All Analysis
-
-- Assumptions
-- Inputs with provenance
-- Method with references
-- Limitations
-- Uncertainty quantification
-- Reproducibility instructions
-- Relation to scientific claim (if applicable)
-
-## Relationship to Other Repos
-
-- `gamma-protocol` defines governance and claim standards
-- `gamma-science` holds the scientific canon that analysis should reference
-- `gamma` provides runtime execution; analysis pipelines may call it but do not own it
-- `gamma-arena` displays analysis results on the observation surface
-
----
-
-© 2026 HNXJ(H.Nejat) / BASTOSLAB / VANDERBILT UNIVERSITY
-
-## Coordination
-
-This repository follows the [GAMMA-BUS Coordination Doctrine](GEMINI.md). Agents should refer to `GEMINI.md` for specific instructions and coordination rules.
